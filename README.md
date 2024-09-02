@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a minimal vite setup to permit to with old riot 3 (to help me maintain an old app)
+This is a minimal vite setup to permit to work/test with old riot 3 (to help me maintain an old app)
 
 It was prepared while using node v21.2.0 so prefer this version to avoid surprises.
 
@@ -23,7 +23,11 @@ Access http://localhost:5173/ in your browser and see it being updated as you ch
 
 ## Tips
 
-### Do not use value as opts to be passed to child tags
+### riot3 examples
+
+https://github.com/riot/examples/tree/v3
+
+### Do not use value in the opts to be passed to child tags
 
 If you do something like this:
 ```
